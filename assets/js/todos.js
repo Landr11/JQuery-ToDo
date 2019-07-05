@@ -31,6 +31,6 @@ $("input[type='text']").keypress(function(event) {
   }
 });
 
-$("#toggle-form").click(function() {
+$(".toggle-add").click(function() {
   $("input[type='text']").fadeToggle();
 });
