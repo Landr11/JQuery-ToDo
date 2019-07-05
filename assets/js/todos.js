@@ -26,11 +26,11 @@ $("input[type='text']").keypress(function(event) {
     //Create new Todo with the Grabbed Text
 
     $("ul").append(
-      "<li><span><i class='fas fa-trash-alt'></i></span> " + todoText + "<lil>"
+      "<li><span><i class='fas fa-trash-alt'></i></span> " + todoText + "</li>"
     );
   }
 });
 
-$(".toggle-add").click(function() {
+$("#toggle-form").click(function() {
   $("input[type='text']").fadeToggle();
 });
